@@ -1,0 +1,30 @@
+---
+# roles/reverse-proxy/meta/main.yml
+
+dependencies: []
+galaxy_info:
+  role_name: 'ansible_role_reverse-proxy'
+  version: '1.1.0'
+  author: 'lordoftheflies'
+  description: 'Ansible Galaxy role for maintain Reverse-proxy.'
+  company: 'Cherubits'
+  license: Apache-2.0
+  min_ansible_version: '2.9'
+  platforms:
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+    - name: Centos
+      versions:
+        - 7
+  galaxy_tags:
+    - cherubits
+    - reverse-proxy
+    - debian
+    - ubuntu
+    - centos

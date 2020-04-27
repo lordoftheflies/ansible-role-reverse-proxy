@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - reverse-proxy_deployment_users_home: /root
+    - reverse-proxy_testing_provider: lxd
+
+  roles:
+    - reverse-proxy

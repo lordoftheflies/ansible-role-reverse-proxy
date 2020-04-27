@@ -1,0 +1,5 @@
+---
+# roles/reverse-proxy/vars/debian.yml
+
+# Debian specific vars
+reverse-proxy_package_extension: 'deb'
