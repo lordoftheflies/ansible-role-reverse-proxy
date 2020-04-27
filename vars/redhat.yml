@@ -1,4 +1,1 @@
 ---
-# roles/reverse-proxy/vars/debian.yml
-
-reverse-proxy_package_extension: 'rpm'

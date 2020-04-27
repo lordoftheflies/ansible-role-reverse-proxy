@@ -39,6 +39,23 @@ Reverse-proxy is an Ansible Role used to setup and maintain production grade ser
 
 * [defaults/main.yml](defaults/main.yml) contains all of the required variables.
 
+<p>
+<summary>
+
+### Webserver type
+
+</summary>
+<details>
+
+Set type of used webserver. Values: `apache2` or `nginx`
+
+```shell
+  ansible_role_reverse_proxy_webserver: apache2
+```
+
+</details>
+</p>
+
 ## Testing
 
 ### For Local Testing
