@@ -1,0 +1,6 @@
+---
+roles:
+  - name: lordoftheflies.ansible_role_apache2
+    version: '2.2.0'
+  - name: lordoftheflies.ansible_role_nginx
+    version: '2.3.0'

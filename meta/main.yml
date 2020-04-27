@@ -1,12 +1,10 @@
 ---
-# roles/reverse-proxy/meta/main.yml
-
 dependencies:
   - role: lordoftheflies.ansible_role_apache2
   - role: lordoftheflies.ansible_role_nginx
 galaxy_info:
   role_name: 'ansible_role_reverse_proxy'
-  version: '1.1.0'
+  version: '2.4.0'
   author: 'lordoftheflies'
   description: 'Ansible Galaxy role for maintain Reverse-proxy.'
   company: 'Cherubits'
