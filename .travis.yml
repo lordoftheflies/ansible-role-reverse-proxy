@@ -8,14 +8,14 @@ env:
   matrix:
 #    - MOLECULE_DISTRO: centos6
 #      MOLECULE_PLAYBOOK: converge-integration.yml
-    - MOLECULE_DISTRO: centos7
-      MOLECULE_PLAYBOOK: converge-integration.yml
+#    - MOLECULE_DISTRO: centos7
+#      MOLECULE_PLAYBOOK: converge-integration.yml
 #    - MOLECULE_DISTRO: centos8
 #      MOLECULE_PLAYBOOK: converge-integration.yml
-    - MOLECULE_DISTRO: debian8
-      MOLECULE_PLAYBOOK: converge-integration.yml
-    - MOLECULE_DISTRO: debian9
-      MOLECULE_PLAYBOOK: converge-integration.yml
+#    - MOLECULE_DISTRO: debian8
+#      MOLECULE_PLAYBOOK: converge-integration.yml
+#    - MOLECULE_DISTRO: debian9
+#      MOLECULE_PLAYBOOK: converge-integration.yml
 #    - MOLECULE_DISTRO: debian10
 #      MOLECULE_PLAYBOOK: converge-integration.yml
 #    - MOLECULE_DISTRO: fedora27
