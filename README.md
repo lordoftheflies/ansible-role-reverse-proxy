@@ -7,7 +7,7 @@ description: 'Quickstart and examples for demonstrating the role capabilities.'
 
 ## Status
 
-[![Build Status](https://travis-ci.org/lordoftheflies/reverse-proxy.svg?branch=master)](https://travis-ci.org/lordoftheflies/ansible-role-reverse-proxy)
+[![Build Status](https://travis-ci.org/lordoftheflies/ansible-role-reverse-proxy.svg?branch=master)](https://travis-ci.org/lordoftheflies/ansible-role-reverse-proxy)
 
 ## Description
 
@@ -20,7 +20,7 @@ Reverse-proxy is an Ansible Role used to setup and maintain production grade ser
 ## References
 
 * [docs.ansible.com](https://docs.ansible.com/)
-* [On Ansible Galaxy](https://galaxy.ansible.com/lordoftheflies/ansible_role_reverse-proxy)
+* [On Ansible Galaxy](https://galaxy.ansible.com/lordoftheflies/ansible_role_reverse_proxy)
 
 ## Requirements
 
@@ -28,28 +28,22 @@ Reverse-proxy is an Ansible Role used to setup and maintain production grade ser
 
 * Ansible
 
+## Variables
+
+* [defaults/main.yml](defaults/main.yml) contains all of the required variables.
+
+## Testing
+
 ### For Local Testing
 
 * [Vagrant](https://www.vagrantup.com/) - (Tested using version 2.1.1)
 * Vagrant plugins:
-  * [vagrant-disksize (0.1.2)](https://github.com/<class 'jinja2.utils.Namespace'>/vagrant-disksize)
-  * [vagrant-libvirt](https://github.com/<class 'jinja2.utils.Namespace'>/vagrant-libvirt)
-  * vai (0.9.3) - For testing with multiple vms [vagrant-plugin-vai](https://github.com/<class 'jinja2.utils.Namespace'>/vagrant-plugin-vai)
-  * [vagrant-vbguest (0.15.2) - Recommended vagrant-vbguest](https://github.com/<class 'jinja2.utils.Namespace'>/vagrant-vbguest)
+  * [vagrant-disksize (0.1.2)](https://github.com/lordoftheflies/vagrant-disksize)
+  * [vagrant-libvirt](https://github.com/lordoftheflies/vagrant-libvirt)
+  * vai (0.9.3) - For testing with multiple vms [vagrant-plugin-vai](https://github.com/lordoftheflies/vagrant-plugin-vai)
+  * [vagrant-vbguest (0.15.2) - Recommended vagrant-vbguest](https://github.com/lordoftheflies/vagrant-vbguest)
 * [Virtual Box](https://www.virtualbox.org/)
   * Tested using Version 5.2.14 r123301 (Qt5.6.1)
-
-## Variables
-
-### defaults/main.yml
-
-* [defaults/main.yml](defaults/main.yml) contains all of the required variables.
-
-### project_name/site.yml example
-
-* [example_reverse-proxy.yml](files/example_site.yml) may contain an example entry.
-
-## Testing
 
 ### Testing with Molecule
 
@@ -71,20 +65,13 @@ To run on a specific VM's
 vagrant up xenial
 ```
 
-### VM's tested with Vagrant and Virtualbox
-
-pass, fail, untested, unsupported
-
-
-| OS | Version | Distribution | Supported [^1](#) | Results  |
-| :--- | :---: | :---: | :---: | :---: |
-
-
 ## Authors
 
-- [<class 'jinja2.utils.Namespace'>](mailto:<class 'jinja2.utils.Namespace'>)
+* This role was created in 2014 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+* Role upgraded in 2019 by [László Hegedűs](mailto:laszlo.hegedus@cherubits.hu), founder of [Cherubits LLC](https://portal.cherubits.hu)
 
-## License: [MIT](https://tldrlegal.com/license/mit-license)
+## License
 
-* reverse-proxy generated using [ansible_collection_skeleton](https://github.com/<class 'jinja2.utils.Namespace'>/ansible_collection_skeleton)[![Ansible Role](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/lordoftheflies/ansible_role_reverse_proxy)
-[![Ansible Role](https://img.shields.io/ansible/role/)](https://galaxy.ansible.com/lordoftheflies/ansible_role_reverse_proxy)
+[Apache 2.0](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0))
+
+**NOTE**: Role generated using [ansible-role-skeleton](https://github.com/lordoftheflies/ansible-role-skeleton)
