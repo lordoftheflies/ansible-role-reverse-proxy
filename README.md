@@ -1,13 +1,20 @@
 ---
 title: 'Role for reverse-proxy'
-description: 'Quickstart and examples for demonstrating the role capabilities.'
+description: 'Ansible Role for setup reverse-proxy per VPS node.'
 ---
 
 # Ansible Role: Reverse-proxy
 
+Ansible Role for setup reverse-proxy per VPS node.
+
 ## Status
 
 [![Build Status](https://travis-ci.org/lordoftheflies/ansible-role-reverse-proxy.svg?branch=master)](https://travis-ci.org/lordoftheflies/ansible-role-reverse-proxy)
+
+[![Version](https://img.shields.io/github/v/tag/lordoftheflies/ansible-role-reverse-proxy?sort=semver)](https://github.com/lordoftheflies/ansible-role-reverse-proxy/releases)
+
+![GitHub Release Date](https://img.shields.io/github/release-date/lordoftheflies/ansible-role-reverse-proxy)
+
 
 ## Description
 
