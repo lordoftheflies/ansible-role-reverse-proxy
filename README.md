@@ -15,6 +15,7 @@ Ansible Role for setup reverse-proxy per VPS node.
 
 ![GitHub Release Date](https://img.shields.io/github/release-date/lordoftheflies/ansible-role-reverse-proxy)
 
+[![time tracker](https://wakatime.com/badge/github/lordoftheflies/ansible-role-reverse-proxy.svg)](https://wakatime.com/badge/github/lordoftheflies/ansible-role-reverse-proxy)
 
 ## Description
 
